@@ -149,6 +149,9 @@ class RKDRetriever:
     @staticmethod
     def getPath(ricName, suffix):
         ricName = re.sub(r'[^\w\s]', '', ricName)
+        # Ensure data directory exists
+        if not os.path.isdir('data'):
+            os.mkdir('data')
         return 'data/' + ricName + '.' + suffix
     
     @staticmethod
@@ -196,6 +199,9 @@ class RKDRetriever:
     @staticmethod
     def getIntraPath(ricName, date, suffix):
         ricName = re.sub(r'[^\w\s]', '', ricName)
+        # Ensure data directory exists
+        if not os.path.isdir('data'):
+            os.mkdir('data')
         if not os.path.isdir('data/' + ricName):
             os.mkdir('data/' + ricName)
         return 'data/' + ricName + '/' + ricName + '_' + date + '.' + suffix
