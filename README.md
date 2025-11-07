@@ -1,9 +1,5 @@
 # Pair Trading Strategy with Machine Learning
 
-A sophisticated statistical arbitrage trading system that identifies cointegrated stock pairs and uses machine learning to predict trading signals.
-
-> **🚀 Want to get started quickly?** See [QUICKSTART.md](QUICKSTART.md) for a 5-minute setup guide.
-
 ## Overview
 
 This project implements a pairs trading strategy that combines:
@@ -27,7 +23,6 @@ PairTrading/
 ├── sp500_tickers_RIC.csv     # Stock ticker mappings (required)
 ├── requirements.txt          # Python dependencies
 ├── verify_setup.py           # Setup verification script
-├── SETUP_GUIDE.md            # Setup guide (Chinese/English)
 └── README.md                 # This file
 ```
 
