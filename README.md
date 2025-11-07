@@ -20,9 +20,12 @@ PairTrading/
 ├── DataProcessor.py          # Data processing and preparation
 ├── FeatureEngineering.py     # Technical indicator calculation
 ├── PairsSelection.py         # Pair selection using cointegration and clustering
+├── stdout.py                 # Utility functions for file management
 ├── Interface2ChangeForFinal.ipynb  # Main execution notebook
 ├── sp500_tickers_RIC.csv     # Stock ticker mappings (required)
 ├── requirements.txt          # Python dependencies
+├── verify_setup.py           # Setup verification script
+├── SETUP_GUIDE.md            # Setup guide (Chinese/English)
 └── README.md                 # This file
 ```
 
@@ -79,6 +82,13 @@ cd PairTrading
 ```bash
 pip install -r requirements.txt
 ```
+
+To verify your installation, run:
+```bash
+python3 verify_setup.py
+```
+
+This will check if all dependencies are installed and all required files are present.
 
 3. **Configure API credentials**
 
