@@ -12,16 +12,15 @@ import requests
 import json
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn; seaborn.set()
 
 
 class RKDRetriever:
     def __init__(self):
-        # Here you can set your username, password and appid
-        self.username = 'akorselt@nicengreen.ch'
-        self.password = 'Filimonchik@1975@@'
-        self.appid = 'AkorseltNicengreenCh'
+        # IMPORTANT: Set your Refinitiv API credentials here
+        # For security, consider using environment variables instead of hardcoding
+        self.username = 'your_email@example.com'  # Replace with your username
+        self.password = 'your_password'            # Replace with your password
+        self.appid = 'YourApplicationID'           # Replace with your application ID
         self.token = None
         
     @staticmethod

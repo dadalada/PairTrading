@@ -2,6 +2,8 @@
 
 A sophisticated statistical arbitrage trading system that identifies cointegrated stock pairs and uses machine learning to predict trading signals.
 
+> **🚀 Want to get started quickly?** See [QUICKSTART.md](QUICKSTART.md) for a 5-minute setup guide.
+
 ## Overview
 
 This project implements a pairs trading strategy that combines:
